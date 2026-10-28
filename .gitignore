@@ -1,0 +1,17 @@
+# 打包中间产物与运行期生成物
+build/
+build_assets/
+dist/
+*.spec
+__pycache__/
+*.pyc
+
+# 个人环境
+.venv/
+.idea/
+
+# 运行期生成
+config.json
+app.ico
+selftest-report.txt
+表情素材/

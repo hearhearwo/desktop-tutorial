@@ -1,0 +1,11 @@
+# 本项目只使用 Python 标准库（ctypes / tkinter / winsound），
+# 用 python.org 的官方 Windows 安装包装好 Python 3.8+（勾选 tcl/tk）即可直接运行，
+# 不需要安装任何第三方依赖。
+#
+# 可选：
+#   pip install pillow
+# 装了他，图片表情就能用 JPG，缩放质量也更细腻（不装也能跑，只是只能用 PNG/GIF 且按整数倍缩放）。
+#
+# 想打包成 exe：
+#   pip install pyinstaller
+#   python build_exe.py        （或双击 打包exe.bat）
